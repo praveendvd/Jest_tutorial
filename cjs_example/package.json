@@ -1,0 +1,36 @@
+{
+  "name": "cjs_example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "inquirer": "^8.2.0",
+    "yargs": "^17.3.1"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "scripts": {
+    "test": "npx jest --inject-globals false"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 0
+      }
+    },
+    "rootDir": "./",
+    "verbose": true,
+    "maxWorkers": 1,
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "index.js"
+    ]
+  }
+}

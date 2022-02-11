@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Validate Index.js Should exit with error message if -n and -l not provided 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      "
+Usage: -n \\"yourname\\"
+
+or
+
+Usage: -i
+
+Options:
+      --help         Show help                                         [boolean]
+      --version      Show version number                               [boolean]
+  -i, --interactive  Pass -i to enter Interactive mode[boolean] [default: false]
+  -n, --name         Your name                               [string] [required]",
+    ],
+    Array [],
+    Array [
+      "Missing required argument: n",
+    ],
+    Array [
+      "
+Usage: -n \\"yourname\\"
+
+or
+
+Usage: -i
+
+Options:
+      --help         Show help                                         [boolean]
+      --version      Show version number                               [boolean]
+  -i, --interactive  Pass -i to enter Interactive mode[boolean] [default: false]
+  -n, --name         Your name                               [string] [required]",
+    ],
+    Array [],
+    Array [
+      "Missing required argument: n",
+    ],
+    Array [
+      "
+Usage: -n \\"yourname\\"
+
+or
+
+Usage: -i
+
+Options:
+      --help         Show help                                         [boolean]
+      --version      Show version number                               [boolean]
+  -i, --interactive  Pass -i to enter Interactive mode[boolean] [default: false]
+  -n, --name         Your name                               [string] [required]",
+    ],
+    Array [],
+    Array [
+      "Missing required argument: n",
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
