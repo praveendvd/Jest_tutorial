@@ -20,7 +20,23 @@ node ./index.js -i
 npm install
 npx ts-node ./index.ts
 ```
+# TO intall this project as commandline utility:
 
+Just run below command from root for cjs
+
+```
+npm install -g
+printer
+```
+
+
+Just run below command from root (where package.json is present) for typescript
+
+```
+npx tsc
+npm install -g
+printer
+```
 
 # Running Jest test
 

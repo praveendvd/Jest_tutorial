@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "npx jest --inject-globals false"
+
+    "test": "npx jest --inject-globals false",
+    "printertsc": "npx ts-node ./index.ts"
   },
   "keywords": [],
-  "bin": {
-    "printer": "npx ts-node ./index.ts"
+  "bin": {   
+    "printer": "./dist/index.js"
   },
   "files": [
     "dist/src/*.js",
