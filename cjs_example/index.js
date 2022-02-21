@@ -1,6 +1,5 @@
 #! /usr/bin/env node
 "use strict";
-const { async } = require("rxjs");
 const { print } = require("./src/printer"),
     yargs = require("yargs"),
     { questions } = require("./src/constant"),
